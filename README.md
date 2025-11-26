@@ -1,8 +1,7 @@
 # License-Plate-Detection-using-OpenCV-and-Haar-Cascade
 
-### Author: MOHAMMAD FAIZAL SK
-### Date: November 12, 2025
-### Course: Computer Vision / AI Applications
+## NAME - JANANI K
+## REG NO - 212224230102
 
 ## Project Overview
 This project implements a License Plate Detection system using OpenCV’s Haar Cascade Classifier.
@@ -35,7 +34,7 @@ import matplotlib.pyplot as plt
 ```
 # Replace 'car.jpg' with your test image filename
 ```
-img = cv2.imread('car.jpg')
+img = cv2.imread("C:\\Users\\admin\\Downloads\\car.jpg")
 ```
 # Convert image from BGR to RGB for display
 ```
@@ -103,15 +102,11 @@ plt.show()
 
 ## Output
 
-<img width="635" height="502" alt="Screenshot 2025-11-15 113841" src="https://github.com/user-attachments/assets/80d99a2c-d118-4fca-8d47-878c26175654" />
+<img width="863" height="809" alt="image" src="https://github.com/user-attachments/assets/97c41f19-416a-4355-85d4-3204e42e25db" />
 
-<img width="680" height="510" alt="Screenshot 2025-11-15 113848" src="https://github.com/user-attachments/assets/391c4d51-b92e-47d1-98a1-3305f8fc1bbb" />
+<img width="951" height="403" alt="image" src="https://github.com/user-attachments/assets/770f4c97-7457-4a49-9458-606c2ccf627f" />
 
-<img width="660" height="512" alt="Screenshot 2025-11-15 113857" src="https://github.com/user-attachments/assets/439defe2-aff8-4780-aabd-b692e715ef9b" />
-
-<img width="1014" height="385" alt="Screenshot 2025-11-15 113904" src="https://github.com/user-attachments/assets/c8b96b47-f7fb-419c-b943-acb379d6bb26" />
-
-
+<img width="929" height="389" alt="image" src="https://github.com/user-attachments/assets/5b2bcf32-f9a5-46b6-b7f4-bab78b986f8f" />
 
 ## Result
 The Haar Cascade classifier successfully detected the license plate region from the input image. After preprocessing (Gaussian Blur and Histogram Equalization), the detection became more stable and accurate.
